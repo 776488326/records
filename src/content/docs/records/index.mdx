@@ -1,0 +1,32 @@
+---
+title: Category
+description: 分类
+template: splash
+prev: false
+next: false
+---
+
+import { CardGrid, LinkCard } from '@astrojs/starlight/components'
+
+<CardGrid>
+  <LinkCard
+    href="/records/framework"
+    title="FrameWork"
+    description="前端框架Vue，React"
+  />
+  <LinkCard
+    href="/records/computedbase"
+    title="ComputedBase"
+    description="计算机基础网络，数据结构和算法"
+  />
+  <LinkCard
+    href="/records/language"
+    title="Language"
+    description="编程语言JavaScript和Python"
+  />
+  <LinkCard
+    href="/records/things"
+    title="Things"
+    description="日常开发中的一点思考"
+  />
+</CardGrid>

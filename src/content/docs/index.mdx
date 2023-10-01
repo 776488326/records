@@ -1,0 +1,32 @@
+---
+title: 读万卷书
+template: splash
+hero:
+  tagline: 学如逆水行舟，不进则退。
+  image:
+    file: ../../assets/logo.svg
+  actions:
+    - text: 记录
+      link: ./records
+      icon: right-arrow
+      variant: primary
+---
+
+import { Card, CardGrid } from '@astrojs/starlight/components'
+
+## 标记
+
+<CardGrid stagger>
+  <Card title="框架" icon="codePen">
+    前端框架
+  </Card>
+  <Card title="基础" icon="setting">
+    计算机基础
+  </Card>
+  <Card title="语言" icon="open-book">
+    编程语言
+  </Card>
+  <Card title="思考" icon="sun">
+    学习思考
+  </Card>
+</CardGrid>
